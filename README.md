@@ -11,4 +11,23 @@
   9.1 nhóm định nghĩa dữ liệu câu lệnh: create (tạo đối tượng dữ liệu); alter (sửa các đối tượng); drop (xóa đối tượng)  
   9.2 nhóm thao tác dữ liệu câu lệnh: thay đổi dữ liệu bảng (insert; delete; update) và không thay đổi (select)  
   9.3 nhóm điều khiển dữ liêu: cấp phát quyền (grant) và thu hồi quyền (revoke)  
-  10.
+  10.khởi tạo 1 database cú pháp: create database <tên>  
+  11.sử dụng database cú pháp: use <tên>  
+  12.đổi tên database cú pháp: alter database <tên cũ> modify name = <tên mới>  
+  13.xóa database cú pháp: drop database <tên>  
+  14.tạo bảng cú pháp: create table <tên>  
+                       (tên cột KDL ràng buộc,  
+                        ...  
+                        )  
+  15.sửa cấu trúc bảng cú pháp: alter table <tên bảng> (mỗi cú pháp sửa được viết liền sau)  
+  15.1 thêm cột cú pháp: add tên cột KDL ràng buộc  
+  15.2 xóa cột cú pháp: drop column tên cột chú ý: muốn xóa cột phải xóa ràng buộc trước  
+  15.3 sửa kiểu dữ liệu cột cú pháp: alter column tên cột KDL mới  
+  đến đây không cần thêm alter table <tên bảng> phía trước  
+  15.4 đổi tên cột cú pháp: SP_RENAME 'tên bảng.tên cột cũ', 'tên cột mới', 'COLUMN'  
+  15.5 đổi tên bảng mới cú pháp: SP_RENAMe tên bảng cũ, tên bảng mới  
+  15.6 xem dữ liệu các bản ghi trong bảng cú pháp: SELECT * FROM tên bảng  
+  chú ý: cột là các trường thuộc tính; dòng là các bản ghi  
+  16
+  
+  
