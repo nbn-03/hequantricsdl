@@ -16,11 +16,12 @@
   12.đổi tên database cú pháp: alter database <tên cũ> modify name = <tên mới>  
   13.xóa database cú pháp: drop database <tên>  
   14.tạo bảng cú pháp: create table <tên>  
-                       (tên cột KDL ràng buộc,  
+                       (tên cột KDL ràng buộc (có hoặc không),  
                         ...  
                         )  
+  14.1 xóa bảng cú pháp: drop table <tên>  
   15.sửa cấu trúc bảng cú pháp: alter table <tên bảng> (mỗi cú pháp sửa được viết liền sau)  
-  15.1 thêm cột cú pháp: add tên cột KDL ràng buộc  
+  15.1 thêm cột cú pháp: add tên cột KDL ràng buộc (có hoặc không) 
   15.2 xóa cột cú pháp: drop column tên cột chú ý: muốn xóa cột phải xóa ràng buộc trước  
   15.3 sửa kiểu dữ liệu cột cú pháp: alter column tên cột KDL mới  
   đến đây không cần thêm alter table <tên bảng> phía trước  
@@ -28,6 +29,12 @@
   15.5 đổi tên bảng mới cú pháp: SP_RENAMe tên bảng cũ, tên bảng mới  
   15.6 xem dữ liệu các bản ghi trong bảng cú pháp: SELECT * FROM tên bảng  
   chú ý: cột là các trường thuộc tính; dòng là các bản ghi  
-  16
-  
+  16. chèn dữ liệu vào bảng cú pháp: INSERT INTO tên bảng (cot1, cot2, ...)  
+                                    VALUES (gt1, gt2, ...)  
+      chú ý: với các gt có KDL text đặt trong ''; nvachar(KDL giới hạn kí tự) đặt trong N''; date đặt 'năm-tháng-ngày'  
+  17. cập nhật dữ liệu trên bảng cú pháp: UPDATE tên bảng set cot = gt, ...  
+                                          WHERE cot = gtri(tại vị trí thay đổi)  
+  18. xóa bản ghi trong bảng (sẽ trả về NULL) cú pháp: DELETE FROM tên bảng  
+                                                       WHERE cot=gtri (điều kiên để xác định bản ghi bị xóa)  
+  19. 
   
