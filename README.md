@@ -36,5 +36,12 @@
                                           WHERE cot = gtri(tại vị trí thay đổi)  
   18. xóa bản ghi trong bảng (sẽ trả về NULL) cú pháp: DELETE FROM tên bảng  
                                                        WHERE cot=gtri (điều kiên để xác định bản ghi bị xóa)  
-  19. 
+  19. ràng buộc toàn vẹn là các quy tắc trong một cơ sở dữ liệu nhằm kiểm tra tính đúng đắn và hợp lệ của dữ liệu trước khi lưu trữ.    
+  19.1 có 2 loại ràng buộc là ràng buộc mức cột-chỉ áp dụng cho cột và ràng buộc mức bảng-có thể áp dụng cho nhiều cột  
+  19.2 cú pháp tạo ràng buộc mức cột: ở bên trên trong phần tạo bảng  
+  19.3 cú pháp tạo ràng buộc mức bảng: constraint tên ràng buộc loại ràng buộc (danhsachsot) thêm vào ngay sau khi tạo các cột trong bảng trước dấu )  
+  19.4 cú pháp khai báo tên cho ràng buộc: tên cột KDL constraint tên ràng buộc loại ràng buộc  
+  19.5 cú pháp thêm ràng buộc: alter table tên bảng add constraint tên ràng buộc loại ràng buộc (danhsachcot)  
+  19.6 ràng buộc default: khi nhập dữ liệu cột đó không được cung cấp giá trị thì giá trị mặc định được dùng. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c04ab15d-e9af-4c90-ae74-1a3700bbea51)  
+
   
