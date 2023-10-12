@@ -73,5 +73,5 @@
   20.6 sử dụng mệnh đề where cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/6cf7cc46-9670-44b2-94a2-685c2e745a98)  
   20.7 các toán tử so sánh, logic: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/83047169-1fe9-48b9-a11b-27e2e68fe0a4)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5640a1ad-1a0d-4ad6-b2e6-103e3499abdf)  
   20.8 lấy một khoảng cú pháp: select * from tên bảng where tên cột between giá trị một and giá trị 2. ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/31740942-7f91-40f4-a77f-1fec20284084)  
-  20.9
-
+  20.9 tìm kiếm gần đúng với cú pháp: select * from tên bảng where tên cột like dữ liệu mẫu. chú ý dữ liệu mẫu ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/48b47299-e078-4ac7-b68b-bda5449931c9)  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/303e3692-9832-41dc-8e04-7178fb8adff3)  
+  20.10 mệnh ddeeff ORDER BY để sắp xếp dữ liệu theo thứ tự (ASC tăng/ DESC giảm)
