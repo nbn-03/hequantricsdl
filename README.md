@@ -66,6 +66,7 @@
   19.13 thuộc tính identity: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/aa8a86ee-26d7-45dd-8017-aee44cb309e4)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/b0ed4927-8d73-4b73-96be-d852cf4a71e4)  
   20. truy vấn (select) đơn giản  
   20.1 truy vấn 1 cột trong bảng cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/733917d5-b658-4ccb-87fd-4dbe79be70e7)  
+  chú ý nếu là select * from: sẽ là truy vấn hết các cột nếu chỉ truy vấn 1 số cột thì gõ tên cột thay vì dấu *   
   20.2 liên kết các cột dữ liệu trong truy vấn kết quả cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/07157c61-852f-4dfb-bf01-bd223eea0965)  
   20.3 lấy n hàng đầu trong bảng dữ liệu cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/fe5b7b5c-02c8-4552-b88a-c677d4fe9a4c)  
   20.4 lấy n% đầu tiên trong bảng cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/6069f3e6-e08f-4ad3-8017-f4288f831881)  
