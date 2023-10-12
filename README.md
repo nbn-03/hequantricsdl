@@ -12,9 +12,11 @@
   9.2 nhóm thao tác dữ liệu câu lệnh: thay đổi dữ liệu bảng (insert; delete; update) và không thay đổi (select)  
   9.3 nhóm điều khiển dữ liêu: cấp phát quyền (grant) và thu hồi quyền (revoke)  
   10.khởi tạo 1 database cú pháp: create database <tên>  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/a85aac3d-c574-44a5-a028-8b94a53a659c)  
   11.sử dụng database cú pháp: use <tên>  
   12.đổi tên database cú pháp: alter database <tên cũ> modify name = <tên mới>  
   13.xóa database cú pháp: drop database <tên>  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/201fa2d4-d949-420d-b132-57f59d2815d1)  
   14.tạo bảng cú pháp: create table <tên>  
                        (tên cột KDL ràng buộc (có hoặc không),  
                         ...  
