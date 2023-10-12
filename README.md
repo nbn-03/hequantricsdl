@@ -43,8 +43,9 @@
   ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/8f14096f-6abe-4cbb-a0f1-c0706d2a48fd)  
   18. xóa bản ghi trong bảng (sẽ trả về NULL) cú pháp: DELETE FROM tên bảng  
                                                        WHERE cot=gtri (điều kiên để xác định bản ghi bị xóa)  
-  19. ràng buộc toàn vẹn là các quy tắc trong một cơ sở dữ liệu nhằm kiểm tra tính đúng đắn và hợp lệ của dữ liệu trước khi lưu trữ.    
+  19. ràng buộc toàn vẹn là các quy tắc trong một cơ sở dữ liệu nhằm kiểm tra tính đúng đắn và hợp lệ của dữ liệu trước khi lưu trữ.  
   19.1 có 2 loại ràng buộc là ràng buộc mức cột-chỉ áp dụng cho cột và ràng buộc mức bảng-có thể áp dụng cho nhiều cột  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ecb0c04e-5484-4d1c-8e60-9fb1c0ef8434)  
   19.2 cú pháp tạo ràng buộc mức cột: ở bên trên trong phần tạo bảng  
   19.3 cú pháp tạo ràng buộc mức bảng: constraint tên ràng buộc loại ràng buộc (danhsachsot). thêm vào ngay sau khi tạo các cột trong bảng trước dấu )  
   19.4 cú pháp khai báo tên cho ràng buộc: tên cột KDL constraint tên ràng buộc loại ràng buộc  
@@ -52,4 +53,11 @@
   19.5 cú pháp thêm ràng buộc: alter table tên bảng add constraint tên ràng buộc loại ràng buộc (danhsachcot)  
   ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/4839ed20-1189-40d4-919a-47c93b6bb3ab)  
   19.6 ràng buộc default: khi nhập dữ liệu cột đó không được cung cấp giá trị thì giá trị mặc định được dùng. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c04ab15d-e9af-4c90-ae74-1a3700bbea51)  
-  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/706d9353-216d-42d3-bcef-f448da3ae0ed)  
+ ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/f6207f39-f616-42c3-ae7e-176ab8cec7e5)  
+  19.7 ràng buộc check: là ràng buộc kiểm tra, yêu cầu phải thảo mãn một biểu thức logic. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/62606db0-439f-4f93-96ef-a6c569606ac5)  
+![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/a253918b-03d4-4d19-a5fb-8c7d111f1538)  
+  19.8 ràng buộc NOT NULL: là khi nhập dữ kiệu giá trị của cột đấy không được bỏ trống. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/546027e4-2c52-4dc9-ad13-65759e2c63fa)  
+  19.9 ràng buộc UNIQUE: yêu cầu các giá trị trong cột hoặc tập hợp cột phải khác nhau, có thể có giá trị NULL nhưng chỉ có một lần. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/4decb52e-9fd2-44a6-a777-c1d439839609)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1f10c2ff-0111-4999-9ea0-20ef5302841f)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1afd746e-8778-443a-b6f6-17206b4f6630)  
+  19.10 ràng buộc primary key: là cột hoặc các cột thỏa mãn các giá trị phải khác nhau và không cón giá trị not null. mỗi bảng chỉ cho phép tối đa một khóa chính và mỗi bảng cần có 1 khóa chính. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e067dd78-9ae3-4b73-9a98-ddb261f19ee7)
+
+
