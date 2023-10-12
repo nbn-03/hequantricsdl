@@ -58,6 +58,9 @@
 ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/a253918b-03d4-4d19-a5fb-8c7d111f1538)  
   19.8 ràng buộc NOT NULL: là khi nhập dữ kiệu giá trị của cột đấy không được bỏ trống. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/546027e4-2c52-4dc9-ad13-65759e2c63fa)  
   19.9 ràng buộc UNIQUE: yêu cầu các giá trị trong cột hoặc tập hợp cột phải khác nhau, có thể có giá trị NULL nhưng chỉ có một lần. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/4decb52e-9fd2-44a6-a777-c1d439839609)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1f10c2ff-0111-4999-9ea0-20ef5302841f)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1afd746e-8778-443a-b6f6-17206b4f6630)  
-  19.10 ràng buộc primary key: là cột hoặc các cột thỏa mãn các giá trị phải khác nhau và không cón giá trị not null. mỗi bảng chỉ cho phép tối đa một khóa chính và mỗi bảng cần có 1 khóa chính. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e067dd78-9ae3-4b73-9a98-ddb261f19ee7)
-
-
+  19.10 ràng buộc primary key: là cột hoặc các cột thỏa mãn các giá trị phải khác nhau và không cón giá trị not null. mỗi bảng chỉ cho phép tối đa một khóa chính và mỗi bảng cần có 1 khóa chính. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e067dd78-9ae3-4b73-9a98-ddb261f19ee7)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/42363db0-7680-4914-b3d0-5a48d3e83a0f)  
+![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/690ddca5-ad2b-41e9-bf7a-4c4bdec77706)  
+  19.11 ràng buộc khóa ngoại: được sử dụng để nối các bảng với nhau (còn được gọi là khóa tham chiếu). Ràng buộc khóa ngoại đảm bảo rằng giá trị trong một cột của bảng con phải tương ứng với giá trị trong cột của bảng cha. điều kiện để tạo khóa ngoại: cột bên bảng cha cũng phải có tại bảng con và tại bảng cha thì cột đó là primary key. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/414eedd6-c65d-415e-8595-5da76358d7a0)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/0e35cada-2569-4a50-8c25-07b4fc062f90)  
+  chú ý: không để xóa dữ liệu hay bwangr nếu còn tồn tại khóa ngoại vì nó đã nối 2 bẳng với nhau.  
+  19.12 xóa ràng buộc cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e9ce8c92-d999-44f5-b231-59391e8e4e7e)  chú ý: không thể xóa dàng buộc không có tên  
+  
