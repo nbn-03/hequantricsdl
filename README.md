@@ -71,5 +71,7 @@
   20.4 lấy n% đầu tiên trong bảng cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/6069f3e6-e08f-4ad3-8017-f4288f831881)  
   20.5 loại bỏ dữ liệu trùng lắp cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/aeb68605-f7b8-428a-8cf3-c6e51124c433)  
   20.6 sử dụng mệnh đề where cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/6cf7cc46-9670-44b2-94a2-685c2e745a98)  
-  20.7 các toán tử so sánh, logic: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/83047169-1fe9-48b9-a11b-27e2e68fe0a4)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5640a1ad-1a0d-4ad6-b2e6-103e3499abdf)
+  20.7 các toán tử so sánh, logic: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/83047169-1fe9-48b9-a11b-27e2e68fe0a4)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5640a1ad-1a0d-4ad6-b2e6-103e3499abdf)  
+  20.8 lấy một khoảng cú pháp: select * from tên bảng where tên cột between giá trị một and giá trị 2. ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/31740942-7f91-40f4-a77f-1fec20284084)  
+  20.9
 
