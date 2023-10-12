@@ -63,4 +63,13 @@
   19.11 ràng buộc khóa ngoại: được sử dụng để nối các bảng với nhau (còn được gọi là khóa tham chiếu). Ràng buộc khóa ngoại đảm bảo rằng giá trị trong một cột của bảng con phải tương ứng với giá trị trong cột của bảng cha. điều kiện để tạo khóa ngoại: cột bên bảng cha cũng phải có tại bảng con và tại bảng cha thì cột đó là primary key. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/414eedd6-c65d-415e-8595-5da76358d7a0)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/0e35cada-2569-4a50-8c25-07b4fc062f90)  
   chú ý: không để xóa dữ liệu hay bwangr nếu còn tồn tại khóa ngoại vì nó đã nối 2 bẳng với nhau.  
   19.12 xóa ràng buộc cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e9ce8c92-d999-44f5-b231-59391e8e4e7e)  chú ý: không thể xóa dàng buộc không có tên  
-  
+  19.13 thuộc tính identity: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/aa8a86ee-26d7-45dd-8017-aee44cb309e4)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/b0ed4927-8d73-4b73-96be-d852cf4a71e4)  
+  20. truy vấn (select) đơn giản  
+  20.1 truy vấn 1 cột trong bảng cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/733917d5-b658-4ccb-87fd-4dbe79be70e7)  
+  20.2 liên kết các cột dữ liệu trong truy vấn kết quả cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/07157c61-852f-4dfb-bf01-bd223eea0965)  
+  20.3 lấy n hàng đầu trong bảng dữ liệu cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/fe5b7b5c-02c8-4552-b88a-c677d4fe9a4c)  
+  20.4 lấy n% đầu tiên trong bảng cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/6069f3e6-e08f-4ad3-8017-f4288f831881)  
+  20.5 loại bỏ dữ liệu trùng lắp cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/aeb68605-f7b8-428a-8cf3-c6e51124c433)  
+  20.6 sử dụng mệnh đề where cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/6cf7cc46-9670-44b2-94a2-685c2e745a98)  
+  20.7 các toán tử so sánh, logic: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/83047169-1fe9-48b9-a11b-27e2e68fe0a4)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5640a1ad-1a0d-4ad6-b2e6-103e3499abdf)
+
