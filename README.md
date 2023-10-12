@@ -21,29 +21,36 @@
                        (tên cột KDL ràng buộc (có hoặc không),  
                         ...  
                         )  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/7881286a-ae8b-47e1-a27c-59a0d4bdd51c)  
   14.1 xóa bảng cú pháp: drop table <tên>  
   15.sửa cấu trúc bảng cú pháp: alter table <tên bảng> (mỗi cú pháp sửa được viết liền sau)  
   15.1 thêm cột cú pháp: add tên cột KDL ràng buộc (có hoặc không) 
   15.2 xóa cột cú pháp: drop column tên cột chú ý: muốn xóa cột phải xóa ràng buộc trước  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/207fa27b-839a-4a28-a79c-0c2465cfe586)  
   15.3 sửa kiểu dữ liệu cột cú pháp: alter column tên cột KDL mới  
   đến đây không cần thêm alter table <tên bảng> phía trước  
   15.4 đổi tên cột cú pháp: SP_RENAME 'tên bảng.tên cột cũ', 'tên cột mới', 'COLUMN'  
   15.5 đổi tên bảng mới cú pháp: SP_RENAMe tên bảng cũ, tên bảng mới  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cb5d3448-d922-49e5-a0c6-9a8fd2e88043)  
   15.6 xem dữ liệu các bản ghi trong bảng cú pháp: SELECT * FROM tên bảng  
   chú ý: cột là các trường thuộc tính; dòng là các bản ghi  
   16. chèn dữ liệu vào bảng cú pháp: INSERT INTO tên bảng (cot1, cot2, ...)  
                                     VALUES (gt1, gt2, ...)  
       chú ý: với các gt có KDL text đặt trong ''; nvachar(KDL giới hạn kí tự) đặt trong N''; date đặt 'năm-tháng-ngày'  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/04c25c78-907b-4446-90a8-503b0a48a74d)  
   17. cập nhật dữ liệu trên bảng cú pháp: UPDATE tên bảng set cot = gt, ...  
                                           WHERE cot = gtri(tại vị trí thay đổi)  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/8f14096f-6abe-4cbb-a0f1-c0706d2a48fd)  
   18. xóa bản ghi trong bảng (sẽ trả về NULL) cú pháp: DELETE FROM tên bảng  
                                                        WHERE cot=gtri (điều kiên để xác định bản ghi bị xóa)  
   19. ràng buộc toàn vẹn là các quy tắc trong một cơ sở dữ liệu nhằm kiểm tra tính đúng đắn và hợp lệ của dữ liệu trước khi lưu trữ.    
   19.1 có 2 loại ràng buộc là ràng buộc mức cột-chỉ áp dụng cho cột và ràng buộc mức bảng-có thể áp dụng cho nhiều cột  
   19.2 cú pháp tạo ràng buộc mức cột: ở bên trên trong phần tạo bảng  
-  19.3 cú pháp tạo ràng buộc mức bảng: constraint tên ràng buộc loại ràng buộc (danhsachsot) thêm vào ngay sau khi tạo các cột trong bảng trước dấu )  
+  19.3 cú pháp tạo ràng buộc mức bảng: constraint tên ràng buộc loại ràng buộc (danhsachsot). thêm vào ngay sau khi tạo các cột trong bảng trước dấu )  
   19.4 cú pháp khai báo tên cho ràng buộc: tên cột KDL constraint tên ràng buộc loại ràng buộc  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/b0d14e68-4a4f-48c2-a909-98af044dba8a)  
   19.5 cú pháp thêm ràng buộc: alter table tên bảng add constraint tên ràng buộc loại ràng buộc (danhsachcot)  
+  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/4839ed20-1189-40d4-919a-47c93b6bb3ab)  
   19.6 ràng buộc default: khi nhập dữ liệu cột đó không được cung cấp giá trị thì giá trị mặc định được dùng. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c04ab15d-e9af-4c90-ae74-1a3700bbea51)  
 
   
