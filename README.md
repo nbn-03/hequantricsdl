@@ -64,7 +64,7 @@
   chú ý: không để xóa dữ liệu hay bwangr nếu còn tồn tại khóa ngoại vì nó đã nối 2 bẳng với nhau.  
   19.12 xóa ràng buộc cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e9ce8c92-d999-44f5-b231-59391e8e4e7e)  chú ý: không thể xóa dàng buộc không có tên  
   19.13 thuộc tính identity: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/aa8a86ee-26d7-45dd-8017-aee44cb309e4)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/b0ed4927-8d73-4b73-96be-d852cf4a71e4)  
-  20. truy vấn (select) đơn giản  
+  20. truy vấn (select) đơn giản(trên một bảng)  
   20.1 truy vấn 1 cột trong bảng cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/733917d5-b658-4ccb-87fd-4dbe79be70e7)  
   chú ý nếu là select * from: sẽ là truy vấn hết các cột nếu chỉ truy vấn 1 số cột thì gõ tên cột thay vì dấu *   
   20.2 liên kết các cột dữ liệu trong truy vấn kết quả cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/07157c61-852f-4dfb-bf01-bd223eea0965)  
@@ -78,3 +78,7 @@
   20.10 mệnh đề ORDER BY để sắp xếp dữ liệu theo thứ tự (ASC tăng/ DESC giảm) trên một hoặc nhiều cột. cú pháp: select * from tên bảng ORDER BY tên cột ASC/DESC. ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/9f8de280-e119-4973-88d1-8caf360b0bf7)  
   20.11 mệnh đề group by: được sử dụng kết hợp với select để sắp xếp dữ liệu đồng nhất vào 1 nhóm. ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1730cd4e-a84e-42dc-82c6-f70498092e9b)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/58e52c92-c75a-4fb2-af79-40ec442bd6e7)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/86a8745b-fe66-43cf-8587-67adcfe77b7b)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1f78b110-466a-4d05-a7a8-aafc035d4a3b)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/6364d40d-81e4-494a-a164-913d7a57fc33)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/37b75e8e-0333-43bb-a0d9-f531d8a83f23)  
   20.11.1 having được thêm vào vì đối với một số hàm where không thể học được. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/fcd5fcab-b740-4c6c-8ff8-335bfc64bc13)  giống nhau và khác nhau của where và having  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/be398bcd-a851-4b4d-b338-2e1e3dafd43b)  
+  21.truy vấn dữ liệu nâng cao(trên nhiều bảng)  
+  21.1 kết nối sử dụng mệnh đề WHERE. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ed2fd093-0c2c-4c5a-95fc-366111487219)
+  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c8de66f5-5981-4aef-a9e8-67720b162871)  
+
