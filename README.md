@@ -80,5 +80,7 @@
   20.11.1 having được thêm vào vì đối với một số hàm where không thể học được. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/fcd5fcab-b740-4c6c-8ff8-335bfc64bc13)  giống nhau và khác nhau của where và having  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/be398bcd-a851-4b4d-b338-2e1e3dafd43b)  
   21.truy vấn dữ liệu nâng cao(trên nhiều bảng)  
   21.1 kết nối sử dụng mệnh đề WHERE. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ed2fd093-0c2c-4c5a-95fc-366111487219)
-  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c8de66f5-5981-4aef-a9e8-67720b162871)  
+  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c8de66f5-5981-4aef-a9e8-67720b162871)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/33a82db5-e02a-4bd9-abc9-af2cde781d31)  
+  
+
 
