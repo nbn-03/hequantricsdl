@@ -122,5 +122,5 @@
   27.1 hàm nội tuyến cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/122bc7bf-4bed-4eba-85f7-1d25343d1c0d)  
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5a9b31b7-c4bb-4f91-9c23-cee6e3be55b0)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/84bb8c01-c289-4872-bac9-3f4e8733f031)  
   27.2 hàm nhiều câu lệnh bên trong cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/3433bff3-91db-4a4a-be14-441b8779ef13)  
-  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ef491d60-c683-48a4-9256-277884d27895)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/055f4b6a-de5b-4bba-a376-5c22a21368c2)
+  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ef491d60-c683-48a4-9256-277884d27895)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/055f4b6a-de5b-4bba-a376-5c22a21368c2)  
   27.3 sửa và xóa hàm cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/99fbf475-a3dc-42a2-a231-d44709cff2e8)  
