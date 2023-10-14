@@ -118,3 +118,7 @@
   25.1 sửa xóa thủ tục cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ee67fa85-0a91-4aa9-b6ed-2ee89cfd6efb)  
   26. hàm: giống với thủ tục nhưng khác nhau là hàm trả về giá trị qua tên hàm còn thủ tục thì khác. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1e1c67dc-fc73-42e2-bc6a-e7d00ce4413a) ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e53c9ff5-b51d-4014-a64d-93b459e58881)  
   chú ý: cách gọi hàm: vì hàm trả về là giá trị nên cần phải đọc ra. cú pháp: select.dbo tên hàm (đối số)  
+  27. hàm trả về bảng  
+  27.1 hàm nội tuyến cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/122bc7bf-4bed-4eba-85f7-1d25343d1c0d)  
+  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5a9b31b7-c4bb-4f91-9c23-cee6e3be55b0)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/84bb8c01-c289-4872-bac9-3f4e8733f031)  
+  27.2 sửa và xóa hàm cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/99fbf475-a3dc-42a2-a231-d44709cff2e8)  
