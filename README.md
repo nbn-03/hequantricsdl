@@ -89,4 +89,8 @@
   21.2.4 FULL JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/3726e197-8c34-438b-a386-487169f43efb)  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/32b413ee-c6a6-4e18-a6b6-606f60d8aca6)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/be7ef877-488e-4704-b11b-78866ed9e382)  
   21.3.1 một số quy tắc truy vấn con cần lưu ý: câu truy vấn con phải nằm trong ngoặc đơn và đặt bên tay phải. ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/69643de0-cd8b-479a-8cb4-a8dfa3bc310a);  
   với những điều kiện so sánh dạng số thì sẽ là dấu '=' còn dạng khác sẽ thay '=' là in ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ace164f9-27c8-4578-8ce7-b00653114583)  
-  21.3.2 truy vấn con nằm trong select; truy vấn 
+  21.3.2 truy vấn con nằm trong select; truy vấn con nằm trong from; truy vấn con nằm trong where.  
+  21.4 các phép toán tập hợp  (hợp-union; trừ-except; giao-intersect)  
+  21.4.1 phép UNION: là kết hợp 2 câu lệnh select với nhau (những điều phần giống nhau chỉ viết 1 lần nếu là union all thì có thể trùng nhau), điều kiện: số cột của 2 select phải bằng nhau và có cùng kiểu dữ liệu. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e11c8bfe-dff7-43dd-9b88-6652499b4f3d)  
+  21.4.2 phép EXCEPT: lấy dòng thứ nhất là loại bỏ những thứ trùng lắp. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1fb5c05d-d4b0-4fc5-a0d9-b06aacfce38a)  
+  21.4.3 phép INTERSECT: lấy phần chung của nó. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/56700ffc-ced4-4fac-97d4-fe6ecd45523e)  
