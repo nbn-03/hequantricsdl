@@ -101,6 +101,6 @@
   22.1 đổi tên view cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cd243099-e9c1-4cf6-99d4-5ba06c2a7c0a)  
   22.2 xóa view cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e24d8ffc-f679-4ccd-ab8c-5b508b4d3d2c)  
   22.3 ưu điểm của view: đơn giản hóa các thao tác truy vấn; bảo mật dữ liệu; độc lập dữ liệu. nhược điểm: bị phụ thuộc vào table gốc; dữ liệu trong view chỉ là đọc  
-  22.4 with check option trong view: mục đích đảm bảo rằng tất cả UPDATE; INSERT thỏa mãn các điều kiện trong view. ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5e1927b6-f34d-4d29-b877-18a51ea39e83)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e56bdb20-1763-4535-9e85-076be12d5d93)  
+  22.4 with check option trong view: mục đích đảm bảo rằng tất cả UPDATE; INSERT thỏa mãn các điều kiện trong view, nếu không thỏa mãn sẽ trả về lỗi. ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5e1927b6-f34d-4d29-b877-18a51ea39e83)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e56bdb20-1763-4535-9e85-076be12d5d93)  
   
 
