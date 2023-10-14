@@ -82,7 +82,7 @@
   21.truy vấn dữ liệu nâng cao(trên nhiều bảng)  
   21.1 kết nối sử dụng mệnh đề WHERE. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ed2fd093-0c2c-4c5a-95fc-366111487219)
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c8de66f5-5981-4aef-a9e8-67720b162871)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/33a82db5-e02a-4bd9-abc9-af2cde781d31)  
-  Chú ý: sự khác biệt khác Where và Join là: Where là chỉ lọc ra dữ liệu từ điều kiện còn Join là sẽ là một dạng đặc biệt của where phục vụ truy xuất dữ liệu từ 2 bảng    
+  Chú ý: sự khác biệt khác Where và Join là: Where là chỉ lọc ra dữ liệu từ điều kiện còn Join là kết hợp dữ liệu từ hai hoặc nhiều bảng dựa trên một hoặc nhiều điều kiện.  
   21.2.1 INNER JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/173aeedf-8ff7-4c46-b8cf-aba38f8c9a31)  Ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/7f60cf51-b139-4ca8-ae87-e88d0b2ff246)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5ff150b7-1a7e-4541-abdd-dadb54a9f51d)  
    21.2.2 LEFT JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1fd02898-3701-4cdb-a7b2-3d19d1080365)  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e78289ae-b9b5-4646-b28a-05a6394126b2)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/a5a4e15b-1712-443e-8240-74efc8528115)  
   21.2.3 RIGHT JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cf020f9a-296e-48a8-bfda-f89dd4301fd1) ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/fbda0991-d6e6-43b2-a7b7-e514ee531c82)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/9cc6f21a-e02b-4183-98b3-3b22eaaf4190)  
@@ -94,3 +94,4 @@
   21.4.1 phép UNION: là kết hợp 2 câu lệnh select với nhau (những điều phần giống nhau chỉ viết 1 lần nếu là union all thì có thể trùng nhau), điều kiện: số cột của 2 select phải bằng nhau và có cùng kiểu dữ liệu. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e11c8bfe-dff7-43dd-9b88-6652499b4f3d)  
   21.4.2 phép EXCEPT: lấy dòng thứ nhất là loại bỏ những thứ trùng lắp. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1fb5c05d-d4b0-4fc5-a0d9-b06aacfce38a)  
   21.4.3 phép INTERSECT: lấy phần chung của nó. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/56700ffc-ced4-4fac-97d4-fe6ecd45523e)  
+  22.
