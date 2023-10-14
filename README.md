@@ -82,7 +82,7 @@
   21.truy vấn dữ liệu nâng cao(trên nhiều bảng)  
   21.1 kết nối sử dụng mệnh đề WHERE. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ed2fd093-0c2c-4c5a-95fc-366111487219)
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c8de66f5-5981-4aef-a9e8-67720b162871)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/33a82db5-e02a-4bd9-abc9-af2cde781d31)  
-  Chú ý: sự khác biệt khác Where và Join là: Where là chỉ lọc ra dữ liệu còn Join là sẽ tạo ra một bảng mới kết hợp giữa 2 bảng  
+  Chú ý: sự khác biệt khác Where và Join là: Where là chỉ lọc ra dữ liệu từ điều kiện còn Join là sẽ là đối chiếu bảng với nhau  
   21.2.1 INNER JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/173aeedf-8ff7-4c46-b8cf-aba38f8c9a31)  Ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/7f60cf51-b139-4ca8-ae87-e88d0b2ff246)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5ff150b7-1a7e-4541-abdd-dadb54a9f51d)  
    21.2.2 LEFT JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1fd02898-3701-4cdb-a7b2-3d19d1080365)  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e78289ae-b9b5-4646-b28a-05a6394126b2)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/a5a4e15b-1712-443e-8240-74efc8528115)  
   21.2.3 RIGHT JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cf020f9a-296e-48a8-bfda-f89dd4301fd1) ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/fbda0991-d6e6-43b2-a7b7-e514ee531c82)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/9cc6f21a-e02b-4183-98b3-3b22eaaf4190)  
