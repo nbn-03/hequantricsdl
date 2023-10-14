@@ -115,4 +115,5 @@
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/d40c9fc9-7130-4988-86fe-fdf7317f0704)  
   lời gọi hàm thủ tục: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/0993b1e6-9945-47d0-8de7-92daa3c83fcc)  
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/76705a5d-1c1d-4cc3-b198-579695d0897f)  
-  
+  25.1 sửa xóa thủ tục cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ee67fa85-0a91-4aa9-b6ed-2ee89cfd6efb)  
+  26. hàm:
