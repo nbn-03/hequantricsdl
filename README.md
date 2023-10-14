@@ -102,7 +102,7 @@
   22.2 xóa view cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e24d8ffc-f679-4ccd-ab8c-5b508b4d3d2c)  
   22.3 ưu điểm của view: đơn giản hóa các thao tác truy vấn; bảo mật dữ liệu; độc lập dữ liệu. nhược điểm: bị phụ thuộc vào table gốc; dữ liệu trong view chỉ là đọc  
   22.4 with check option trong view: mục đích đảm bảo rằng tất cả UPDATE; INSERT thỏa mãn các điều kiện trong view, nếu không thỏa mãn sẽ trả về lỗi. ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5e1927b6-f34d-4d29-b877-18a51ea39e83)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e56bdb20-1763-4535-9e85-076be12d5d93)  
-  23. trong SQL tổ chức theo từng khối lệnh, một lệnh có thể lồng bởi một khối lệnh khác. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/f58570b5-0093-49bd-8324-5009fc290e7f)  
+  23. trong SQL tổ chức theo từng khối lệnh, một khối lệnh có thể lồng bởi một khối lệnh khác. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/f58570b5-0093-49bd-8324-5009fc290e7f)  
   24. biến trong T-SQL là một đối tượng trong CSDL dùng để lưu dữ liệu tạm thời.  
   24.1 biến hệ thống: cung cấp các thông tin hệ thống  
   24.2 biến do người dùng tự định nghĩa cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/b0882954-fb41-4f08-9743-92d9e5796ced)  
@@ -111,4 +111,8 @@
   24.3 cấu trúc if-else cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c25a2dfc-4c5d-415e-862c-e3734e638b29)  
   24.4 câu lệnh case cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/0642662d-bb7d-4378-b735-f26cc51465fd)  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e55a6d42-3a74-44aa-b00c-e43b3bc85465)  
   24.5 câu lệnh while cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/f1e058e1-d5d7-4dee-a128-6785b55f7bb2)  
-  25. thủ tục lưu trữ:
+  25. thủ tục lưu trữ: là một đối tượng trong CSDL chứa khối lệnh có các khả năng: thực hiện một công việc nào đó có thể sử dụng nhiều lần. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/a392d866-c47f-4540-819e-dc7dfe60ea22)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5ec8f5b5-054a-4036-8e86-858141ca6124)  
+  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/d40c9fc9-7130-4988-86fe-fdf7317f0704)  
+  lời gọi hàm thủ tục: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/0993b1e6-9945-47d0-8de7-92daa3c83fcc)  
+  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/76705a5d-1c1d-4cc3-b198-579695d0897f)  
+  
