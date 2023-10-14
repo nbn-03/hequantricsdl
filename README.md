@@ -116,4 +116,5 @@
   lời gọi hàm thủ tục: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/0993b1e6-9945-47d0-8de7-92daa3c83fcc)  
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/76705a5d-1c1d-4cc3-b198-579695d0897f)  
   25.1 sửa xóa thủ tục cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ee67fa85-0a91-4aa9-b6ed-2ee89cfd6efb)  
-  26. hàm: giống với thủ tục nhưng khác nhau là hàm trả về giá trị qua tên hàm còn thủ tục thì khác. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1e1c67dc-fc73-42e2-bc6a-e7d00ce4413a)  
+  26. hàm: giống với thủ tục nhưng khác nhau là hàm trả về giá trị qua tên hàm còn thủ tục thì khác. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1e1c67dc-fc73-42e2-bc6a-e7d00ce4413a) ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e53c9ff5-b51d-4014-a64d-93b459e58881)  
+  chú ý: cách gọi hàm: vì hàm trả về là giá trị nên cần phải đọc ra. cú pháp: select.dbo tên hàm (đối số)  
