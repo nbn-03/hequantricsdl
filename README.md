@@ -82,6 +82,6 @@
   21.truy vấn dữ liệu nâng cao(trên nhiều bảng)  
   21.1 kết nối sử dụng mệnh đề WHERE. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ed2fd093-0c2c-4c5a-95fc-366111487219)
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c8de66f5-5981-4aef-a9e8-67720b162871)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/33a82db5-e02a-4bd9-abc9-af2cde781d31)  
-  
-
+  Chú ý: sự khác biệt khác Where và Join là: Where là chỉ lọc ra dữ liệu còn Join là sẽ tạo ra một bảng mới kết hợp giữa 2 bảng  
+  21.2.1 INNER JOIN cú pháp: 
 
