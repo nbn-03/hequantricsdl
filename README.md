@@ -98,7 +98,7 @@
   22.View được như một bảng ảo trong CSDL, được đặt tên, định nghĩa khi select và có thể tác động đến. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/8c8badae-cd33-4995-a180-25db32b60a32)  
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/2e008022-2ed0-41c7-afca-2ded792f5981)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cce6ee56-d1e4-45cd-bdde-6ded54c78411)  
   chú ý trước khi chạy select * view thì từ bước tạo view phải nhét vào go. ví du: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/40d3f668-8e3b-40eb-a098-f5372a2b89bf)  
-        tại sao phải có view vì dù khi kết hợp bảng bằng join thì nó vẫn dữ được tên bảng gốc khi gọi tên cột  
+        tại sao phải có view vì ví dụ: khi kết hợp bảng bằng join thì nó vẫn dữ được tên bảng gốc khi gọi tên cột  
   22.1 đổi tên view cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cd243099-e9c1-4cf6-99d4-5ba06c2a7c0a)  
   22.2 xóa view cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e24d8ffc-f679-4ccd-ab8c-5b508b4d3d2c)  
   22.3 ưu điểm của view: đơn giản hóa các thao tác truy vấn; bảo mật dữ liệu; độc lập dữ liệu. nhược điểm: bị phụ thuộc vào table gốc; dữ liệu trong view chỉ là đọc  
