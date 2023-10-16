@@ -82,7 +82,7 @@
   21.truy vấn dữ liệu nâng cao(trên nhiều bảng)  
   21.1 kết nối sử dụng mệnh đề WHERE. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ed2fd093-0c2c-4c5a-95fc-366111487219)
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/c8de66f5-5981-4aef-a9e8-67720b162871)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/33a82db5-e02a-4bd9-abc9-af2cde781d31)  
-  Chú ý: sự khác biệt khác Where và Join là: Where là chỉ lọc ra dữ liệu từ điều kiện còn Join là kết hợp dữ liệu từ hai hoặc nhiều bảng dựa trên một hoặc nhiều điều kiện.  
+  Chú ý: sự khác biệt khác Where và Join là: Where là chỉ lọc ra dữ liệu từ điều kiện còn Join là kết hợp dữ liệu từ hai hoặc nhiều bảng dựa trên cột giống nhau.  
   21.2.1 INNER JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/173aeedf-8ff7-4c46-b8cf-aba38f8c9a31)  Ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/7f60cf51-b139-4ca8-ae87-e88d0b2ff246)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/5ff150b7-1a7e-4541-abdd-dadb54a9f51d)  
    21.2.2 LEFT JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/1fd02898-3701-4cdb-a7b2-3d19d1080365)  ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e78289ae-b9b5-4646-b28a-05a6394126b2)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/a5a4e15b-1712-443e-8240-74efc8528115)  
   21.2.3 RIGHT JOIN cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cf020f9a-296e-48a8-bfda-f89dd4301fd1) ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/fbda0991-d6e6-43b2-a7b7-e514ee531c82)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/9cc6f21a-e02b-4183-98b3-3b22eaaf4190)  
@@ -98,6 +98,7 @@
   22.View được như một bảng ảo trong CSDL, được đặt tên, định nghĩa khi select và có thể tác động đến. cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/8c8badae-cd33-4995-a180-25db32b60a32)  
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/2e008022-2ed0-41c7-afca-2ded792f5981)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cce6ee56-d1e4-45cd-bdde-6ded54c78411)  
   chú ý trước khi chạy select * view thì từ bước tạo view phải nhét vào go. ví du: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/40d3f668-8e3b-40eb-a098-f5372a2b89bf)  
+        tại sao phải có view vì dù khi kết hợp bảng bằng join thì nó vẫn dữ được tên bảng gốc khi gọi tên cột  
   22.1 đổi tên view cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/cd243099-e9c1-4cf6-99d4-5ba06c2a7c0a)  
   22.2 xóa view cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/e24d8ffc-f679-4ccd-ab8c-5b508b4d3d2c)  
   22.3 ưu điểm của view: đơn giản hóa các thao tác truy vấn; bảo mật dữ liệu; độc lập dữ liệu. nhược điểm: bị phụ thuộc vào table gốc; dữ liệu trong view chỉ là đọc  
