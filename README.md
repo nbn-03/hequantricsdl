@@ -123,5 +123,4 @@
   27.2 hàm nhiều câu lệnh bên trong cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/3433bff3-91db-4a4a-be14-441b8779ef13)  
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ef491d60-c683-48a4-9256-277884d27895)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/055f4b6a-de5b-4bba-a376-5c22a21368c2)  
   27.3 sửa và xóa hàm cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/99fbf475-a3dc-42a2-a231-d44709cff2e8)  
-  CHÚ Ý VỚI LÀM BÀI THỰC HÀNH NÊN LÀM TỪ TRÊN XUỐNG TRÁNH XUY NGHĨ TỪ DƯỚI LÊN (VÍ DỤ TÌM TÊN MÔN HỌC TRONG 3 BẢNG THEO TÊN THÌ LÀM THEO Ý TƯỞNG BẢNG KẾT QUẢ NỐI VỚI BẢNG ĐIỂM ĐỂ XÁC ĐỊNH MÃ SV NÀO THI MÔN NÀO ĐIỂM BẢO NHIÊU SAU ĐÓ GHÉP TIẾP VỚI BẢNG SINH VIÊN ĐỂ XÁC ĐỊNH TÊN LÀ LỌC TÊN)  
   
