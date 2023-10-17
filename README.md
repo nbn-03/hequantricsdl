@@ -127,4 +127,4 @@
   27.3 sửa và xóa hàm cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/99fbf475-a3dc-42a2-a231-d44709cff2e8)  
   28.1 trigger là một thủ tục lưu trữ, sẽ tự động thực hiện sau khi sự kiện nào đó xảy ra không cần gọi như thủ tục và không có tham số. các sự kiện có thể là sự kiện của DML (data manipulation language): insert, update, delete hoặc có thể là sự kiện của DDL (data defination language): create, alter, drop.  
   28.2 cú pháp trigger: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/7907267b-9362-4b31-9e8e-3e85ae952d14)  
-  chú ý: sau khi tạo trigger, bảng deleted,... sẽ được tạo tự động sau khi biên dịch và để lưu trữ những giá trị thay đổi, xóa, thêm. xem bài tập để hiểu thêm
+  chú ý: sau khi tạo trigger, bảng deleted,... sẽ được tạo tự động sau khi biên dịch và để lưu trữ những giá trị thay đổi, xóa, thêm. xem ví dụ để hiểu thêm
