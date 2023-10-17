@@ -1,4 +1,6 @@
-﻿﻿---database
+-- CÓ THỂ SAI VÀ THIẾU SÓT
+
+---database
 CREATE DATABASE QLSV
 USE QLSV
 Drop database QLSV
