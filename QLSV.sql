@@ -1,4 +1,4 @@
--- CÓ THỂ SAI VÀ THIẾU SÓT
+-- VẪN CÒN CÓ THỂ SAI VÀ THIẾU SÓT
 
 ---database
 CREATE DATABASE QLSV
