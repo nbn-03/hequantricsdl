@@ -125,4 +125,6 @@
   27.2 hàm nhiều câu lệnh bên trong cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/3433bff3-91db-4a4a-be14-441b8779ef13)  
   ví dụ: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/ef491d60-c683-48a4-9256-277884d27895)  ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/055f4b6a-de5b-4bba-a376-5c22a21368c2)  
   27.3 sửa và xóa hàm cú pháp: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/99fbf475-a3dc-42a2-a231-d44709cff2e8)  
-  
+  28.1 trigger là một thủ tục lưu trữ, sẽ tự động thực hiện sau khi sự kiện nào đó xảy ra không cần gọi như thủ tục và không có tham số. các sự kiện có thể là sự kiện của DML (data manipulation language): insert, update, delete hoặc có thể là sự kiện của DDL (data defination language): create, alter, drop.  
+  28.2 cú pháp trigger: ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/7907267b-9362-4b31-9e8e-3e85ae952d14)  
+  chú ý: sau khi tạo trigger, bảng deleted,... sẽ được tạo tự động sau khi biên dịch và để lưu trữ những giá trị thay đổi, xóa, thêm. xem bài tập để hiểu thêm
