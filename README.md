@@ -42,6 +42,7 @@
   17. cập nhật dữ liệu trên bảng cú pháp: UPDATE tên bảng set cot = gt, ...  
                                           WHERE cot = gtri(tại vị trí thay đổi)  
   ![image](https://github.com/nbn-03/hequantricsdl/assets/98254107/8f14096f-6abe-4cbb-a0f1-c0706d2a48fd)  
+  CHÚ Ý: khi thay đổi giá trị hay thêm hay xóa các giá trị mới sẽ được lưu trong INSerted và giá trị cũng sẽ được lưu trong deleted  
   18. xóa bản ghi trong bảng (sẽ trả về NULL) cú pháp: DELETE FROM tên bảng  
                                                        WHERE cot=gtri (điều kiên để xác định bản ghi bị xóa)  
   19. ràng buộc toàn vẹn là các quy tắc trong một cơ sở dữ liệu nhằm kiểm tra tính đúng đắn và hợp lệ của dữ liệu trước khi lưu trữ.  
