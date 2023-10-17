@@ -1,0 +1,39 @@
+ --- ví dụ trigger: giả sử có 3 bảng sinhvien, ketqua, monhoc không có ràng buộc khóa ngoại muốn thay đổi masv của bảng sinhvien thì masv của ketqua cũng sẽ thay đổi
+ ---- create trigger ten_trigger
+ ---- on sinhvien
+ ---- after update
+ ---- as 
+ ---- begin 
+ ------ update ketqua
+ ------ set masv = select masv from inserted
+ ------ where masv = select masv from deleted
+ ---- end
+
+ --- chạy trigger 
+ --- update sinhvien
+ --- set masv = 100
+ --- where masv = 1
+
+ --- ví dụ trigger: giả sử có 3 bảng sinhvien, ketqua, monhoc có ràng buộc khóa ngoại muốn thay đổi masv của bảng sinhvien thì masv của ketqua cũng sẽ thay đổi
+ --- create trigger ten_trigger
+ --- on sinhvien
+ --- instead of update
+ --- as
+ --- begin
+ ------ alter table ketqua
+ ------ nocheck constraint all
+ ------ => câu lệnh tắt check ràng buộc
+ ------ update ketqua 
+ ------ set masv = select masv from inserted
+ ------ where masv = select masv from deleted
+ ------ update sinhvien
+ ------ set masv = select masv from inserted
+ ------ where masv = select masv from deleted
+ ------ alter table ketqua
+ ------ check constraint all
+ ------ => khôi phục check ràng buộc
+
+ --- chạy trigger
+ --- update sinhvien
+ --- set masv = 100
+ --- where masv = 1
